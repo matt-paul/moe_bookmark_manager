@@ -12,4 +12,9 @@ feature 'Creating links' do
       expect(page).to have_content('This is Zombocom')
     end
   end
+
+  scenario 'there are no links in the database at the star of the test' do
+    expect(Link.count).to eq 0
+  end
+
 end
