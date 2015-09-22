@@ -8,6 +8,6 @@ DataMapper.setup(:default, "postgres://localhost/bookmark_manager_#{env}")
 require './app/models/link' # require each model individually - the path may vary depending on your file structure.
 
 # After declaring your models, you should finalise them
-DataMapper.setup
+DataMapper.finalize
 # However, the database tables don't exist yet. Let's tell datamapper to create them
 DataMapper.auto_upgrade!
