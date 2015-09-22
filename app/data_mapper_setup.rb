@@ -1,4 +1,6 @@
 require 'data_mapper'
+require './app/data_mapper_setup.rb'
+
 
 env = ENV['RACK_ENV'] || 'development'
 
