@@ -1,3 +1,4 @@
+require 'capybara'
 require 'capybara/rspec'
 require 'data_mapper'
 
