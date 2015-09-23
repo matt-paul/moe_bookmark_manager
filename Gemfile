@@ -7,5 +7,5 @@ gem 'dm-postgres-adapter'
 gem 'rspec-sinatra'
 gem 'sinatra'
 gem 'database_cleaner'
-gem 'pg'
+gem 'pg', group: :production
 gem 'rake'
