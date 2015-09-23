@@ -5,7 +5,7 @@ class Bookmark_manager < Sinatra::Base
 set :views, proc { File.join(root, '..', 'views') }
 
   get '/' do
-    'Hello bookmark_manager!'
+    dredirect '/links'
     erb :'links/home'
   end
 
