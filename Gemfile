@@ -9,3 +9,4 @@ gem 'sinatra'
 gem 'database_cleaner'
 gem 'pg', group: :production
 gem 'rake'
+gem 'do_postgres'
